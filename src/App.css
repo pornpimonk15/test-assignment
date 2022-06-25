@@ -8,3 +8,11 @@ body {
 #app {
     font-family: 'Kanit', sans-serif;
 }
+
+.v-main {
+    padding: 130px 0px 0px !important;
+}
+
+.text-grey {
+    color: rgba(0, 0, 0, 0.54) !important;
+}
