@@ -13,7 +13,10 @@
           lg="3"
           xl="3"
         >
-          <v-card class="fruit-card">
+          <v-card
+            class="fruit-card"
+            @click="(dialog = !dialog), (fruitSelected = index)"
+          >
             <v-img
               :src="fruit.src"
               class="white--text align-end"
@@ -26,6 +29,17 @@
         </v-col>
       </v-row>
     </v-flex>
+    <v-dialog v-model="dialog" max-width="750">
+      <v-card>
+        <v-carousel hide-delimiters v-model="fruitSelected">
+          <v-carousel-item
+            v-for="(fruit, i) in fruits"
+            :key="i"
+            :src="fruit.src"
+          ></v-carousel-item>
+        </v-carousel>
+      </v-card>
+    </v-dialog>
   </v-container>
 </template>
 
@@ -84,6 +98,8 @@ export default {
           src: `${require("../assets/images/fruit-12.jpg")}`,
         },
       ],
+      dialog: false,
+      fruitSelected: 0,
     };
   },
 };
