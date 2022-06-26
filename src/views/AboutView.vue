@@ -125,13 +125,18 @@
             </v-row>
           </v-flex>
         </v-flex>
+        <Experience />
       </v-container>
     </div>
   </div>
 </template>
 
 <script>
+import Experience from "../components/Experience.vue";
 export default {
+  components: {
+    Experience,
+  },
   data() {
     return {
       skills: [
