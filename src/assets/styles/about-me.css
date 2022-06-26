@@ -1,0 +1,38 @@
+.section-header-about-me {
+    background-image: linear-gradient(rgba(104, 104, 221, 0.45),
+            rgb(104, 104, 221, 0.45)), url('../images/bg-about-me.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 100vh;
+    padding-top: 150px;
+    /* linear-gradient(to right, #f15f79, #b24592) */
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 20px !important;
+    padding: 15px 20px 5px 10px;
+}
+
+.aboute-me-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: start;
+    color: #323150;
+    margin: 20px;
+}
+
+.hobby-card {
+    width: 250px !important;
+    text-align: -webkit-center;
+}
+
+.about-me-content {
+    display: flex !important;
+    align-items: center !important;
+    gap: 20px;
+}
+
+.profile-img-2 {
+    border-radius: 20px !important;
+}
