@@ -126,15 +126,18 @@
           </v-flex>
         </v-flex>
         <Experience />
+        <Hobby />
       </v-container>
     </div>
   </div>
 </template>
 
 <script>
+import Hobby from "../components/Hobby.vue";
 import Experience from "../components/Experience.vue";
 export default {
   components: {
+    Hobby,
     Experience,
   },
   data() {
