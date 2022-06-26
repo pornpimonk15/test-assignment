@@ -2,17 +2,69 @@
 
 html,
 body {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Kanit', sans-serif !important;
+    background-color: #f5f6f8;
 }
 
 #app {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Kanit', sans-serif !important;
+}
+
+.v-application {
+    font-family: "Kanit", sans-serif !important;
+}
+
+.v-application .body-1 {
+    font-family: "Kanit", sans-serif !important;
+}
+
+.v-application .text-caption {
+    font-family: "Kanit", sans-serif !important;
 }
 
 .v-main {
-    padding: 130px 0px 0px !important;
+    padding: unset !important;
+    background-color: #f5f6f8;
+}
+
+.v-btn {
+    text-transform: none !important;
 }
 
 .text-grey {
     color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.text-dark-blue {
+    color: #323150 !important;
+}
+
+.text-blue {
+    color: #6868DD !important;
+}
+
+.text-yellow {
+    color: #EECF49 !important;
+}
+
+.text-pink {
+    color: #F54668 !important;
+}
+
+.bg-blue {
+    background: #6868DD !important;
+}
+
+.bg-yellow {
+    background: #EECF49 !important;
+}
+
+.bg-pink {
+    background: #F54668 !important;
+}
+
+.bullet {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
 }
