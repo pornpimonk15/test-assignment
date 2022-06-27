@@ -1,14 +1,15 @@
 <template>
   <v-app-bar app class="header">
     <div class="d-flex align-center">
-      <v-img
+      <v-icon size="40" color="#ed1968" class="pa-1">mdi-heart</v-icon>
+      <!-- <v-img
         alt="Vuetify Logo"
         class="shrink mr-2"
         contain
         src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
         transition="scale-transition"
         width="35"
-      />
+      /> -->
     </div>
 
     <v-spacer></v-spacer>

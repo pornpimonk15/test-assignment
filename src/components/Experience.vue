@@ -1,5 +1,5 @@
 <template>
-  <v-flex class="py-5">
+  <v-flex class="experience-box">
     <p class="aboute-me-title">Experience</p>
     <v-row justify="center">
       <v-col xs="12" sm="8" md="6" lg="6" xl="6">
