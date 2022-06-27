@@ -1,15 +1,7 @@
 <template>
-  <v-app-bar app class="header">
+  <v-app-bar hide-on-scroll app class="header">
     <div class="d-flex align-center">
       <v-icon size="40" color="#ed1968" class="pa-1">mdi-heart</v-icon>
-      <!-- <v-img
-        alt="Vuetify Logo"
-        class="shrink mr-2"
-        contain
-        src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-        transition="scale-transition"
-        width="35"
-      /> -->
     </div>
 
     <v-spacer></v-spacer>
@@ -58,6 +50,10 @@ export default {
   width: 70%;
   margin: auto;
   top: 30px !important;
+}
+
+.v-app-bar.v-app-bar.v-app-bar--hide-shadow {
+  top: unset !important;
 }
 
 .link {
