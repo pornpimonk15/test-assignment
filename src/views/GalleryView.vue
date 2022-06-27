@@ -50,51 +50,51 @@ export default {
       fruits: [
         {
           title: "Passion Fruit",
-          src: `${require("../assets/images/fruit-01.jpg")}`,
+          src: `${require("../assets/images/fruits/fruit-01.jpg")}`,
         },
         {
           title: "Mixed Fruit",
-          src: `${require("../assets/images/fruit-02.jpg")}`,
+          src: `${require("../assets/images/fruits/fruit-02.jpg")}`,
         },
         {
           title: "Strawberry",
-          src: `${require("../assets/images/fruit-03.jpg")}`,
+          src: `${require("../assets/images/fruits/fruit-03.jpg")}`,
         },
         {
           title: "Rambutan",
-          src: `${require("../assets/images/fruit-04.jpg")}`,
+          src: `${require("../assets/images/fruits/fruit-04.jpg")}`,
         },
         {
           title: "Avocado",
-          src: `${require("../assets/images/fruit-05.jpg")}`,
+          src: `${require("../assets/images/fruits/fruit-05.jpg")}`,
         },
         {
           title: "Lychee",
-          src: `${require("../assets/images/fruit-06.jpg")}`,
+          src: `${require("../assets/images/fruits/fruit-06.jpg")}`,
         },
         {
           title: "Kiwi",
-          src: `${require("../assets/images/fruit-07.jpg")}`,
+          src: `${require("../assets/images/fruits/fruit-07.jpg")}`,
         },
         {
           title: "Coconut",
-          src: `${require("../assets/images/fruit-08.jpg")}`,
+          src: `${require("../assets/images/fruits/fruit-08.jpg")}`,
         },
         {
           title: "Mandarin Orange",
-          src: `${require("../assets/images/fruit-09.jpg")}`,
+          src: `${require("../assets/images/fruits/fruit-09.jpg")}`,
         },
         {
           title: "Watermelon ",
-          src: `${require("../assets/images/fruit-10.jpg")}`,
+          src: `${require("../assets/images/fruits/fruit-10.jpg")}`,
         },
         {
           title: "Red Delicious Apple",
-          src: `${require("../assets/images/fruit-11.jpg")}`,
+          src: `${require("../assets/images/fruits/fruit-11.jpg")}`,
         },
         {
           title: "Apple",
-          src: `${require("../assets/images/fruit-12.jpg")}`,
+          src: `${require("../assets/images/fruits/fruit-12.jpg")}`,
         },
       ],
       dialog: false,
