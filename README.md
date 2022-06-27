@@ -1,24 +1,25 @@
 # test-assignment-vue
 
-## Project setup
+Demo URL: [https://test-assignment-abe8f.web.app/gallery](https://test-assignment-abe8f.web.app/gallery)
+
+## ⬇️ Project setup
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### ⚡️ Compiles and hot-reloads for development
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### ♻️ Build for production
+
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### 💆‍♀️ Pornpimon.K
 
-### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
