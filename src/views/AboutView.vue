@@ -13,17 +13,19 @@
               <h1>(Kook)</h1>
               <h2 class="text-yellow">I'm a Frontend Developer</h2>
             </v-flex>
-            <v-flex
-              style="
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 20px;
-              "
-            >
-              <v-icon size="35">mdi-instagram</v-icon>
-              <v-icon size="35">mdi-linkedin</v-icon>
-              <v-icon size="35">mdi-github</v-icon>
+            <v-flex class="social-box">
+              <v-btn icon tile href="https://www.instagram.com/pk.kook/"
+                ><v-icon size="35">mdi-instagram</v-icon></v-btn
+              >
+              <v-btn
+                icon
+                tile
+                href="https://www.linkedin.com/in/pornpimon-khosanteea-076583183/"
+                ><v-icon size="35">mdi-linkedin</v-icon></v-btn
+              >
+              <v-btn icon href="https://github.com/pornpimonk15"
+                ><v-icon size="35">mdi-github</v-icon></v-btn
+              >
             </v-flex>
           </div>
         </v-flex>
@@ -33,19 +35,35 @@
       <v-container>
         <v-flex class="pt-5">
           <p class="aboute-me-title">About Me</p>
-          <v-row class="mt-3" justify="center" align="center">
-            <v-col cols="12" xs="12" sm="5" md="4" lg="4" xl="4">
+          <v-row class="about-me-row" justify="center" align="center">
+            <v-col
+              class="about-me-col"
+              cols="12"
+              xs="12"
+              sm="10"
+              md="5"
+              lg="4"
+              xl="4"
+            >
               <v-avatar class="profile-img-2" size="300"
                 ><img src="../assets/images/profile-2.jpg" alt="profile-2"
               /></v-avatar>
             </v-col>
-            <v-col cols="12" xs="12" sm="9" md="8" lg="8" xl="8">
-              <h3 class="text-dark-blue font-weight-medium">
+            <v-col
+              class="about-me-col"
+              cols="12"
+              xs="12"
+              sm="10"
+              md="9"
+              lg="8"
+              xl="8"
+            >
+              <h3 class="mb-5 text-dark-blue font-weight-medium">
                 A Frontend Developer with hands-on experience in programming web
                 app utilizing Vue.js/React.js ecosystem, including coordinate,
                 planning, execution and user support.
               </h3>
-              <v-row class="text-start my-3">
+              <v-row class="my-3">
                 <v-col
                   class="about-me-content"
                   cols="12"
@@ -107,9 +125,9 @@
               </v-row>
             </v-col>
           </v-row>
-          <v-flex class="pt-10">
+          <v-flex class="py-10">
             <p class="aboute-me-title">Skills</p>
-            <v-row justify="center" align="center">
+            <v-row class="skill-row">
               <v-col
                 v-for="(skill, index) in skills"
                 :key="index"
@@ -120,7 +138,7 @@
                 lg="1"
                 xl="1"
               >
-                <v-img :src="skill.src" width="100"></v-img>
+                <v-img :src="skill.src" width="100" :alt="skill.label"></v-img>
               </v-col>
             </v-row>
           </v-flex>

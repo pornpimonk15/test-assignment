@@ -2,10 +2,16 @@
     background-image: linear-gradient(rgba(104, 104, 221, 0.45),
             rgb(104, 104, 221, 0.45)), url('../images/bg-about-me.jpg');
     background-repeat: no-repeat;
-    /* background-size: cover; */
     height: 100vh;
     padding-top: 150px;
-    /* linear-gradient(to right, #f15f79, #b24592) */
+    background-size: cover;
+}
+
+.social-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .card {
@@ -14,12 +20,25 @@
     padding: 15px 20px 5px 10px;
 }
 
+.profile-img-2 {
+    border-radius: 20px !important;
+}
+
 .aboute-me-title {
     font-size: 1.5em;
     font-weight: 600;
     text-align: start;
     color: #323150;
     margin: 20px;
+}
+
+.about-me-row {
+    margin-top: 12px;
+}
+
+.about-me-col {
+    text-align: center;
+    text-align: -webkit-center;
 }
 
 .hobby-card {
@@ -33,6 +52,88 @@
     gap: 20px;
 }
 
-.profile-img-2 {
-    border-radius: 20px !important;
+.skill-row {
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* XL Extra large */
+@media (min-width: 1905px) {}
+
+/* LG - Desktop */
+@media (max-width: 1265px) and (min-width: 1904px) {}
+
+/* MD - Large Tablet */
+@media (max-width: 1264px) and (min-width: 961px) {
+    .section-header-about-me {
+        height: 50vh;
+    }
+
+    .aboute-me-title {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+}
+
+/* SM - Small Tablet */
+@media (max-width: 960px) and (min-width: 601px) {
+    .section-header-about-me {
+        height: 55vh;
+        padding-top: 120px;
+    }
+
+    .aboute-me-title {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .skill-row {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+}
+
+/* XS - Mobile */
+@media (max-width: 600px) and (min-width: 385px) {
+    .aboute-me-title {
+        text-align: center;
+    }
+
+    .about-me-content {
+        padding-left: 30px;
+    }
+
+    .skill-row {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .experience-box {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* XS Smallerrr */
+@media (max-width: 385px) {
+    .aboute-me-title {
+        text-align: center;
+    }
+
+    .about-me-content {
+        padding-left: 20px;
+    }
+
+    .experience-box {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
