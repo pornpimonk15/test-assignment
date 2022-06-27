@@ -57,12 +57,11 @@ export default {
 }
 
 .link {
-  min-width: 100px;
+  width: 100px;
   font-weight: 400;
   font-size: 16px;
   color: #616161;
   text-decoration: unset;
-  padding-inline: 10px;
 }
 
 .link:hover {
@@ -71,9 +70,29 @@ export default {
 }
 
 .active-link {
-  min-width: 100px;
+  width: 100px;
   color: #ed1968;
   font-weight: 500;
   text-decoration: unset;
+}
+
+/* XS - Mobile */
+@media (max-width: 600px) and (min-width: 385px) {
+  .link {
+    width: 85px;
+  }
+  .active-link {
+    width: 85px;
+  }
+}
+
+/* XS Smallerrr */
+@media (max-width: 385px) {
+  .link {
+    width: 85px;
+  }
+  .active-link {
+    width: 85px;
+  }
 }
 </style>
