@@ -1,6 +1,6 @@
 <template>
-  <v-container class="text-center">
-    <h1 class="display-2 text-grey mb-10">Gallery</h1>
+  <v-container class="section-gallery text-center">
+    <h1 class="gallery-title mb-10">Gallery</h1>
     <v-flex>
       <v-row dense>
         <v-col
@@ -19,9 +19,8 @@
           >
             <v-img
               :src="fruit.src"
-              class="white--text align-end"
+              class="fruit-img align-end"
               gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.3)"
-              height="200px"
             >
               <v-card-title v-text="fruit.title"></v-card-title>
             </v-img>
@@ -106,7 +105,5 @@ export default {
 </script>
 
 <style scoped>
-.fruit-card {
-  border-radius: 15px !important;
-}
+@import "../assets/styles/gallery.css";
 </style>
